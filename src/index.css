@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.logo-image{
+    width: 200px;
+    height: 150px;
+}
+header{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+    margin-top: -120px;
+}
+nav{
+    width: 100%;
+}
+.sign-up-page{
+   height: 600px;
+   background: #fff; 
+   justify-content: center;
+   text-align: center;
+   display: flex;
+}
+.sign-up-form{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.video-page{
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+.video{
+    text-align: center;
+}
+.shoe-type{
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tMQQyAPwjm93xR1llCqQpdto0vsZNf3dkPQdYNNlO5wK11pHo3Owh13JdkQ9N2RE2S8&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    @media only screen  and (max-width:600px){
+        body{
+            background:blue;
+        }
+    }
+}
+   
